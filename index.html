@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Odin Project - Sign up Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="left-bg">
+        <div class="title">
+          <img src="assets/logo.png" alt="" />
+          <h1>odin</h1>
+        </div>
+        <div class="link">
+          A photo by
+          <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+          <a href="https://unsplash.com/">Unsplash</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="description">
+            <p>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.
+            </p>
+            <p>You know you want to.</p>
+        </div>
+        <form>
+            <div class="form">
+                <p class="f-title">Let's do this!</p>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="fname">first name</label>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lname">last name</label>
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+  
+                    <div class="form-group">
+                        <label for="phone">phone number</label>
+                        <input type="number" name="phone" id="phone" required>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="paswd">password</label>
+                        <input type="password" name="paswd" id="paswd" required>
+                    </div>
+  
+                    <div class="form-group">
+                        <label for="cpaswd">confirm password</label>
+                        <input type="password" name="cpaswd" id="cpaswd" required>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="footer">
+              <button class="button">Create Account</button>
+              <p>Already have an acount? <span class="login">Log in</span></p>
+            </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
